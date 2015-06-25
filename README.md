@@ -14,6 +14,11 @@ http://ammasvilasini.github.io/
 1. For objective 1, view this page: http://ammasvilasini.github.io/
 2. For objective 2, view this page: http://ammasvilasini.github.io/views/pizza.html
 
+### Project Files
+1. Index.html will be tested on pagespeed insights, but for your reference you can see the file called Index_production.html
+2. Main_minified.js will be used to see the FPS and the resize pizza time, but Main.js can be used as reference (with comments).
+
+
 ### Objective 1 Optimizations
 1. Optimized the images using adobe photoshop cs6
 2. Inlined the critical javascript and CSS
