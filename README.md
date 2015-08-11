@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Website Performance Optimization portfolio PROJECT
+=======
+## Objectives of the Project
+>>>>>>> origin/master
 =======
 ## Objectives of the Project
 >>>>>>> origin/master
@@ -14,13 +18,16 @@ There are 2 main objectives of this project:
 
 2. To achieve the frame rate of 60fps for the pizza page (views/pizza.html). This is done by optimizing the code in main.js. 
 
-### Viewing the Website
-You can view the website here: 
+### How to Launch the project:
+
+1. Start by opening this webpage: 
 
 http://ammasvilasini.github.io/
 
-1. For objective 1, view this page: http://ammasvilasini.github.io/
-2. For objective 2, view this page: http://ammasvilasini.github.io/views/pizza.html
+1. Then to view the page for objective 1, go here: http://ammasvilasini.github.io/
+2. Check the page in page speed insights and check the page speed.
+3. Then to view the page for objective 2, go here: http://ammasvilasini.github.io/views/pizza.html
+4. The frame rate of this page can be detected using chrome developer tools. 
 
 ### Project Files
 1. Index.html will be tested on pagespeed insights, but for your reference you can see the file called Index_production.html
