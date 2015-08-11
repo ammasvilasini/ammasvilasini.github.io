@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Website Performance Optimization portfolio PROJECT
-=======
-## Objectives of the Project
->>>>>>> origin/master
-=======
-## Objectives of the Project
->>>>>>> origin/master
-=======
-## Objectives of the Project
->>>>>>> origin/master
-
-There are 2 main objectives of this project:
+### There are 2 main objectives of this project:
 
 1. To achieve the PageSpeed score of 90 for index.html (both mobile and laptop scores should be at least 90).
 
