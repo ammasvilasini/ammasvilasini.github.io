@@ -1,0 +1,1041 @@
+/* COLOR REFERENCES
+
+Dark Blue: #021B49
+Light Blue: #4A70B8
+
+Orange: #e67e22
+Grey: #EFECEC
+
+*/
+
+/* === GENERAL === */
+
+body {
+	margin-top: 50px;
+	font-family: 'Merriweather', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+
+/*=== GLOBAL === */
+
+h1,h2,h3,h4,h5 {
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+h1{
+	font-family: 'Oswald',sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: 'Merriweather', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+.btn{
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+}
+
+button, input, .btn, a.btn{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+
+}
+
+#hero-button .btn-outline-inverse:hover{
+	background-color: #ffffff;
+	color: #021B49;
+}
+
+/* How to make the blue outline on the button go away */
+button.btn:focus {
+	outline: none !important;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn-primary {
+	background-color: #021B49;
+	color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 300;
+	border: none;
+	height: 80px;
+	font-size: 24px;
+	padding-top: 22px;
+}
+
+.btn-primary:hover{
+	background-color: #fff;
+	color: #021B49;
+}
+
+.modal-content{
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+	background: #ffffff;
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 32px;
+	margin: 45px 5px 20px 0px;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: #021B49;
+}
+
+.badge.social.amazon:hover{
+	background: #e67e22;
+}
+
+.badge.social.youtube:hover{
+	background: #e67e22;
+}
+
+.badge.social.linkedin:hover{
+	background: #e67e22;
+}
+
+.navbar-inverse .navbar-toggle{
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+	background: #e67e22;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+	background: #e67e22;
+}
+
+
+/*=== NAVBAR === */
+
+.navbar.navbar-inverse {
+	background-color: #021B49;
+	height: 80px;
+
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: #315495;
+	background-color: #021B49;
+}
+
+.navbar .nav >li >a:hover {
+	color: #4A70B8;
+}
+
+#navbar-collapse {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 28px;
+
+}
+
+#navbar-brand h1 {
+	margin-top: 0px;
+	font-weight: 300;
+	margin-bottom: 0px;
+
+}
+
+#navbar-brand p {
+	color: #4A70B8;
+	font-size: 12px;
+
+}
+
+/*=== HERO === */
+
+#hero {
+	background: url('../img/mountain-hero.jpg') 50% 0 repeat fixed;
+	height: 600px;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+
+
+#hero-button .btn-outline-inverse{
+	margin-top: 270px;
+	text-align: center;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid white;
+
+}
+
+#hero-button h1 {
+	font-size: 24px;
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+#myModal h4{
+	font-family: 'Merriweather',helvetica;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #021B49;
+    border-color: #021B49;
+
+}
+
+
+.btn-default:active, .btn-default.active {
+    border-color: #021B49;
+    color: #021B49;
+    box-shadow: none;
+
+}
+
+
+
+/*=== JUNG QUOTE === */
+
+#jungquote {
+	background: rgba(230, 126, 34,.80);
+	color: white;
+	font-size: 18px;
+	font-family: 'Merriweather-Light';
+	line-height: 23px;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+	height: 40px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	margin-top: 156px;
+	margin-bottom: 0;
+	padding-top: 5px;
+
+}
+
+#freewill {
+	text-align: center;
+}
+
+#freewill small {
+	font-size: 14px;
+}
+
+/*=== THERAPY SECTION === */
+
+/* therapy buttons */
+
+
+
+/* end therapy buttons */
+
+
+/*=== ABOUT ME === */
+
+#aboutme {
+	text-align: center;
+	padding-top: 30px;
+	background: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#aboutme p {
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#aboutme img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+
+}
+
+#aboutmequotes {
+	background: #021B49;
+	color: #ffffff;
+	line-height: 20px;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+	padding-top: 10px;
+	font-weight: 200;
+	margin-bottom: 20px;
+
+}
+
+#therapytypes {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 30px;
+
+}
+
+.btn-therapy {
+	font-family: 'Oswald';
+	font-weight: 300;
+	text-align: center;
+
+}
+
+#sufferquote {
+	background: #021B49;
+	color: white;
+	font-size: 18px;
+	font-family: Merriweather-Light;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+	height: 40px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	margin-top: 20px;
+
+
+}
+
+#nosuffer {
+	text-align: center;
+	padding-top: 5px;
+}
+
+/*=== VIDEO SECTION === */
+
+
+#video {
+	min-height: 550px;
+}
+
+#video iframe {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-style: 2px solid;
+	border-color: #e67e22;
+
+}
+
+#video-row1 {
+	padding-top: 30px;
+	margin-bottom:0px !important;
+}
+
+#video-row2 {
+
+
+}
+
+#video .btn {
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
+
+#collg8{
+	background-color: green;
+}
+#bigRow{
+	background-color: black;
+}
+
+/*=== FOOTER === */
+
+
+footer {
+  width: 100%;
+  background-image: linear-gradient( 0deg, rgba(1,26,73,0.79) 0%, #000000 100%);
+  color: #ffffff;
+  padding: 20px 0 10px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+
+}
+
+
+footer a:hover {
+	color: #4A70B8;
+}
+
+
+footer h2 {
+	color: #4A70B8;
+}
+
+
+#footer-brand {
+    color: #FFFFFF;
+}
+
+
+
+.navbar .nav >li >a:hover {
+	color: #4A70B8;
+}
+
+#footer {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#footer-brand h1 {
+	margin-top: 0px;
+	font-weight: 300;
+	margin-bottom: 0px;
+
+}
+
+#footer-brand p {
+	color: #4A70B8;
+	font-size: 12px;
+	font-family: 'Merriweather',sans-serif;
+	text-align: left;
+
+}
+
+#footerIcons {
+	padding-left: 0;
+}
+
+#copyright {
+	margin-top: 40px;
+}
+
+/*=== TYPES OF THERAPY === */
+
+.feature-image {
+	width: 100%
+}
+
+
+#therapytypes_feature{
+	background: url('../img/therapy_page_header.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 200px;
+
+
+}
+
+.feature-image h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+.feature-image p{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 10px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#therapyTypes{
+	background-color: white;
+	padding-left: 20px;
+	border: solid 1px #ddd;
+	padding-bottom: 50px;
+}
+
+#therapyTypes h1{
+	color: #021B49;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#therapyTypes p{
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#therapyTypes img{
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+#therapyTypes a{
+	margin-top: 20px;
+}
+
+/*=== INDIVIDUAL THERAPY === */
+
+#individual_feature{
+	background: url('../img/butterfly_feature.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 248px;
+	margin-top: 80px;
+
+
+}
+
+#individual_feature h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: left;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#individual_feature p{
+	color: #ffffff;
+	vertical-align: center;
+	text-align: left;
+	padding: 0px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	font-weight: 100;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#individual_content{
+	background-color: white;
+	padding: 20px;
+
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#ind_faq h1{
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+#passions {
+	text-align: center;
+}
+
+/*=== COUPLES THERAPY === */
+
+#couples_feature{
+	background: url('../img/couples_therapy.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 220px;
+	margin-top: 80px;
+
+
+}
+
+#couples_feature h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#couples_feature p{
+	color: #ffffff;
+	vertical-align: center;
+	text-align: left;
+	padding: 0px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#couples_content{
+	background-color: white;
+	padding: 20px;
+
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+/*=== SAND PLAY THERAPY === */
+
+#sandplay_feature{
+	background: url('../img/sandplay_therapy.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 180px;
+	margin-top: 80px;
+
+
+}
+
+#sandplay_feature h1{
+	color: #ffffff;
+	vertical-align: center;
+	text-align: middle;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#sandplay_feature p{
+	color: #ffffff;
+	vertical-align: center;
+	text-align: middle;
+	padding: 0px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#sandplay_content{
+	background-color: white;
+	padding: 20px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+/*=== COUPLES GROUPS === */
+#couplesgroup_feature{
+	background: url('../img/couples_group.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 220px;
+	margin-top: 80px;
+
+
+}
+
+#couplesgroup_feature h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#couplesgroup_feature p{
+	color: #ffffff;
+	vertical-align: center;
+	text-align: right;
+	padding: 0px 50px 0px 0px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#couplesgroup_content{
+	background-color: white;
+	padding: 20px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+/*=== CASE CONSULTATION === */
+#caseConsultation_feature{
+	background: url('../img/case_consultation.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 220px;
+	margin-top: 80px;
+
+
+}
+
+#caseConsultation_feature h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#caseConsultation_feature p{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0px 50px 0px 0px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#caseConsultation_content{
+	background-color: white;
+	padding: 20px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#caseConsultation_content p{
+	background-color: white;
+	padding: 20px;
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+/*=== BOOKS === */
+#books_feature{
+	background: url('../img/books_header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 220px;
+	margin-top: 80px;
+
+
+}
+
+#books_feature h1{
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 400;
+	padding: 60px 0px 0px 50px;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+#booktitle h1 {
+	text-align: left;
+	vertical-align: left;
+	color: #021B49;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+}
+
+
+#bookscontent{
+	background-color: white;
+	padding: 20px;
+	border: solid 1px #ddd;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+
+
+}
+
+#bookscontent img{
+	padding: 25px 0px 15px 0px;
+	vertical-align: middle;
+}
+
+#bookvideotitle{
+	padding-left: 10px;
+}
+
+/*=== ABOUT ME PAGE === */
+#aboutme_page{
+	margin: 20px 0px 20px 0px;
+
+}
+
+#aboutme_page img{
+	margin-top: 50px;
+	/* padding-right: 50px; */
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+
+}
+
+#aboutme_page .page-title{
+	margin-left: 60px;
+	padding-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+	 color: #021B49;
+
+
+}
+#aboutme_rows{
+	background-color: #ffffff;
+	mar: 0px 50px 50px 0px
+}
+
+#aboutme_page blockquote{
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+#aboutme_page blockquote li{
+	font-size: 12px;
+}
+#aboutme_imgContainer{
+	background-color: white;
+}
+
+#directions{
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+#directionsContainer{
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+#directionsContainer h1{
+	color: #021B49;
+
+}
+
+#directionsInfo{
+	padding-right: 50px;
+}
+
+
+/*=== MEDIA QUERIES === */
+
+@media screen and ( max-width: 991px ){
+	#navbar-collapse{
+		font-size: 15px;
+	}
+
+	footer {
+		font-size: 10px;
+		padding-left: 30px;
+
+	}
+	#footer-brand h1{
+		padding-left: 10px;
+	}
+	#footer-brand p{
+		padding-left: 10px;
+	}
+
+	#footerIcons{
+		padding-left: 30px;
+	}
+
+}
+
+
+@media screen and ( max-width: 768px ){
+	#navbar-collapse{
+		background: rgba(2,27,73,0.7);
+	}
+
+	#hero-button{
+		padding-left: 40px;
+	}
+
+
+	#hero-button h1 {
+		font-size: 14px;
+
+	}
+
+	#jungquote {
+		font-size: 12px;
+		padding-bottom: 50px;
+		padding-top: 2px;
+
+	}
+
+	#freewill small {
+		font-size: 10px;
+	}
+
+	#aboutme{
+		font-size: 14px;
+		padding:10px 10px 0px 10px
+
+	}
+
+	#aboutmequotes {
+		font-size: 14px;
+	}
+
+	#aboutme img{
+		padding-bottom: 10px;
+	}
+
+	#therapytypes{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#sufferquote{
+		height: 50px;
+	}
+
+	#sufferquote #nosuffer {
+		font-size: 14px;
+		padding-bottom: 6px;
+		padding-top: 5px;
+
+	}
+
+	footer {
+		font-size: 14px;
+
+
+	}
+
+	footer h2{
+		font-size: 22px;
+
+
+	}
+
+	footer ul{
+		font-size: 14px;
+
+	}
+}
+
+
+
+@media screen and ( max-width: 480px ){
+
+	footer {
+		font-size: 14px;
+
+
+	}
+
+	footer h2{
+		font-size: 22px;
+
+
+	}
+
+	footer ul{
+		font-size: 14px;
+
+
+	}
+
+	#copyright{
+		padding-right: 10px;
+		padding-top: 0px;
+
+	}
+
+	#footer-brand{
+		padding-top: 60px;
+
+	}
+
+	#footerIcons{
+		padding-top: 10px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
