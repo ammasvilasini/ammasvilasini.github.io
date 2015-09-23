@@ -521,7 +521,8 @@ footer h2 {
 }
 
 #therapyTypes a{
-	margin-top: 20px;
+	margin:10px 0px 0px 50px;
+	padding: 0px 30px 0px 30px;
 }
 
 /*=== INDIVIDUAL THERAPY === */
@@ -768,12 +769,13 @@ footer h2 {
 
 #caseConsultation_content p{
 	background-color: white;
-	padding: 20px;
+	/* padding: 20px; */
 	text-align: left;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
 }
+
 
 /*=== BOOKS === */
 #books_feature{
@@ -860,7 +862,7 @@ footer h2 {
 
 #aboutme_page blockquote{
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 #aboutme_page blockquote li{
@@ -893,11 +895,8 @@ footer h2 {
 
 /*=== MEDIA QUERIES === */
 
+/*Medium Devices, Desktops */
 @media screen and ( max-width: 991px ){
-	#navbar-collapse{
-		font-size: 18px;
-		font-weight: 400;
-	}
 
 	footer {
 		font-size: 12px;
@@ -919,8 +918,12 @@ footer h2 {
 
 
 @media screen and ( max-width: 768px ){
+
+
 	#navbar-collapse{
 		background: rgba(2,27,73,0.7);
+		font-size: 18px;
+		font-weight: 400;
 	}
 
 	#hero-button{
@@ -974,11 +977,6 @@ footer h2 {
 
 	}
 
-	footer {
-		font-size: 14px;
-
-
-	}
 
 	footer h2{
 		font-size: 22px;
@@ -986,10 +984,11 @@ footer h2 {
 
 	}
 
-	footer ul{
-		font-size: 14px;
+	footer li{
+		font-size: 12px;
 
 	}
+
 }
 
 
@@ -1008,8 +1007,8 @@ footer h2 {
 
 	}
 
-	footer ul{
-		font-size: 14px;
+	footer li{
+		font-size: 18px;
 
 
 	}
@@ -1029,7 +1028,10 @@ footer h2 {
 		padding-top: 10px;
 	}
 
-
+	#directionsContainer iframe{
+		width: 80%;
+		height: 80%;
+	}
 
 }
 
