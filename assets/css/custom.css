@@ -896,6 +896,7 @@ footer h2 {
 @media screen and ( max-width: 991px ){
 	#navbar-collapse{
 		font-size: 18px;
+		font-weight: 400;
 	}
 
 	footer {
