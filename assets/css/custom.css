@@ -47,6 +47,26 @@ h3 {
 }
 
 
+
+.panel-body{
+	font-family: 'Merriweather', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+
 a:hover {
 	text-decoration: none;
 }
@@ -137,6 +157,25 @@ button.btn:focus {
 }
 
 
+#faq h1{
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+
+
+}
+
+#main_container{
+	background-color: white;
+	padding-left: 20px;
+	border: solid 1px #ddd;
+	padding-bottom: 20px;
+
+}
+
+
+
+
 /*=== NAVBAR === */
 
 .navbar.navbar-inverse {
@@ -187,7 +226,7 @@ button.btn:focus {
 /*=== HERO === */
 
 #hero {
-	background: url('../img/mountain-hero.jpg') 50% 0 repeat fixed;
+	background: url('../img/home_hero2.jpg') 50% 0 repeat fixed;
 	height: 600px;
 	padding: 40px 0;
 	color: white;
@@ -240,7 +279,7 @@ button.btn:focus {
 /*=== JUNG QUOTE === */
 
 #jungquote {
-	background: rgba(230, 126, 34,.80);
+	background: rgba(0, 0, 0,.40);
 	color: white;
 	font-size: 18px;
 	font-family: 'Merriweather-Light';
@@ -275,8 +314,9 @@ button.btn:focus {
 /*=== ABOUT ME === */
 
 #aboutme {
-	text-align: center;
-	padding-top: 30px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -300,8 +340,7 @@ button.btn:focus {
 }
 
 #aboutmequotes {
-	background: #021B49;
-	color: #ffffff;
+	color: #021B49;
 	line-height: 20px;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
@@ -316,8 +355,10 @@ button.btn:focus {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding-top: 30px;
+	margin-top: 20px;
 
 }
+
 
 .btn-therapy {
 	font-family: 'Oswald';
@@ -352,6 +393,12 @@ button.btn:focus {
 	min-height: 550px;
 }
 
+#video h1{
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
 #video iframe {
 	margin-top: 30px;
 	margin-bottom: 15px;
@@ -361,7 +408,6 @@ button.btn:focus {
 }
 
 #video-row1 {
-	padding-top: 30px;
 	margin-bottom:0px !important;
 }
 
@@ -416,6 +462,7 @@ footer h2 {
 
 #footer-brand {
     color: #FFFFFF;
+    float: right;
 }
 
 
@@ -446,13 +493,10 @@ footer h2 {
 
 }
 
-#footerIcons {
-	padding-left: 0;
+#footerIcons{
+	padding-left: 135px;
 }
 
-#copyright {
-	margin-top: 40px;
-}
 
 /*=== TYPES OF THERAPY === */
 
@@ -462,19 +506,18 @@ footer h2 {
 
 
 #therapytypes_feature{
-	background: url('../img/therapy_page_header.jpg');
+	background: url('../img/hero_therapyTypes.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 200px;
+	min-height: 250px;
 
 
 }
 
 .feature-image h1{
 	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 	font-weight: 400;
 	padding-top: 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
@@ -499,6 +542,7 @@ footer h2 {
 	padding-left: 20px;
 	border: solid 1px #ddd;
 	padding-bottom: 50px;
+	margin-top: 20px;
 }
 
 #therapyTypes h1{
@@ -516,7 +560,7 @@ footer h2 {
 }
 
 #therapyTypes img{
-	padding-top: 40px;
+	padding-top: 70px;
 	padding-left: 20px;
 }
 
@@ -527,12 +571,14 @@ footer h2 {
 
 /*=== INDIVIDUAL THERAPY === */
 
+
+
 #individual_feature{
-	background: url('../img/butterfly_feature.jpg');
+	background: url('../img/hero_individual.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 248px;
+	min-height: 220px;
 	margin-top: 80px;
 
 
@@ -540,10 +586,8 @@ footer h2 {
 
 #individual_feature h1{
 	color: #ffffff;
-	vertical-align: middle;
 	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -552,12 +596,11 @@ footer h2 {
 
 #individual_feature p{
 	color: #ffffff;
-	vertical-align: center;
 	text-align: left;
-	padding: 0px 0px 0px 50px;
+	padding-top: 0;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
@@ -565,29 +608,29 @@ footer h2 {
 }
 
 #individual_content{
-	background-color: white;
 	padding: 20px;
-
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
 }
 
-#ind_faq h1{
+#individual_content h1{
 	font-weight: 400;
 	font-size: 18px;
-	text-align: center;
-
+	text-align: left;
 }
 
-#passions {
-	text-align: center;
+#individual_content .row{
+	padding: 20px 20px 0px 20px;
 }
+
+
 
 /*=== COUPLES THERAPY === */
 
+
 #couples_feature{
-	background: url('../img/couples_therapy.jpg');
+	background: url('../img/hero_couplestherapy.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -599,21 +642,19 @@ footer h2 {
 
 #couples_feature h1{
 	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
 }
 
+
 #couples_feature p{
 	color: #ffffff;
-	vertical-align: center;
 	text-align: left;
-	padding: 0px 0px 0px 50px;
+	padding-top: 0;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
@@ -622,10 +663,15 @@ footer h2 {
 
 }
 
+#passions{
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+
 #couples_content{
 	background-color: white;
 	padding: 20px;
-
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
@@ -634,7 +680,7 @@ footer h2 {
 /*=== SAND PLAY THERAPY === */
 
 #sandplay_feature{
-	background: url('../img/sandplay_therapy.jpg');
+	background: url('../img/hero_sandplay.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -646,10 +692,8 @@ footer h2 {
 
 #sandplay_feature h1{
 	color: #ffffff;
-	vertical-align: center;
-	text-align: middle;
+	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -658,11 +702,11 @@ footer h2 {
 
 #sandplay_feature p{
 	color: #ffffff;
-	vertical-align: center;
-	text-align: middle;
-	padding: 0px 0px 0px 50px;
+	text-align: left;
+	padding-top: 0;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	font-size: 14px;
+	font-weight: bold;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
@@ -679,7 +723,7 @@ footer h2 {
 
 /*=== COUPLES GROUPS === */
 #couplesgroup_feature{
-	background: url('../img/couples_group.jpg');
+	background: url('../img/hero_groups.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -690,23 +734,20 @@ footer h2 {
 }
 
 #couplesgroup_feature h1{
-	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	color: #021B49;
+	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
-	text-shadow: 1px 1px 4px rgba(0,0,0,0.90);
+	/* text-shadow: 1px 1px 4px rgba(0,0,0,0.90); */
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
 }
 
 #couplesgroup_feature p{
-	color: #ffffff;
-	vertical-align: center;
-	text-align: right;
+	color: #021B49;
+	text-align: left;
 	padding: 0px 50px 0px 0px;
-	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
+	/* text-shadow: 1px 1px 4px rgba(0,0,0,0.50); */
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -716,15 +757,19 @@ footer h2 {
 
 #couplesgroup_content{
 	background-color: white;
-	padding: 20px;
+	/* padding: 20px; */
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
 }
 
+#individual_content #groups_content{
+	padding-left: 0px;
+}
+
 /*=== CASE CONSULTATION === */
 #caseConsultation_feature{
-	background: url('../img/case_consultation.jpg');
+	background: url('../img/hero_caseConsultation.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -736,10 +781,8 @@ footer h2 {
 
 #caseConsultation_feature h1{
 	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -748,8 +791,7 @@ footer h2 {
 
 #caseConsultation_feature p{
 	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 	padding: 0px 50px 0px 0px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	font-size: 14px;
@@ -760,7 +802,6 @@ footer h2 {
 }
 
 #caseConsultation_content{
-	background-color: white;
 	padding: 20px;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -769,7 +810,7 @@ footer h2 {
 
 #caseConsultation_content p{
 	background-color: white;
-	/* padding: 20px; */
+	padding: 20px;
 	text-align: left;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -779,26 +820,29 @@ footer h2 {
 
 /*=== BOOKS === */
 #books_feature{
-	background: url('../img/books_header.jpg');
+	background: url('../img/hero_books.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 220px;
 	margin-top: 80px;
+	margin-bottom: 20px;
 
 
 }
 
 #books_feature h1{
 	color: #ffffff;
-	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 	font-weight: 400;
-	padding: 60px 0px 0px 50px;
 	text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
+}
+
+#booktitle {
+	padding-left: 30px;
 }
 
 #booktitle h1 {
@@ -812,9 +856,6 @@ footer h2 {
 
 
 #bookscontent{
-	background-color: white;
-	padding: 20px;
-	border: solid 1px #ddd;
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 
@@ -824,6 +865,10 @@ footer h2 {
 #bookscontent img{
 	padding: 25px 0px 15px 0px;
 	vertical-align: middle;
+}
+
+#book_reviews {
+	padding-left: 20px;
 }
 
 #bookvideotitle{
@@ -912,6 +957,12 @@ footer h2 {
 
 	#footerIcons{
 		padding-left: 30px;
+	}
+
+	#caseConsultation_content img {
+	padding-right: 50px;
+
+
 	}
 
 }
@@ -1021,17 +1072,33 @@ footer h2 {
 
 	#footer-brand{
 		padding-top: 60px;
+		float: left;
 
 	}
 
 	#footerIcons{
 		padding-top: 10px;
+
 	}
 
 	#directionsContainer iframe{
 		width: 80%;
 		height: 80%;
 	}
+
+	#ind_faq h4{
+		font-size: 14px;
+	}
+
+	#ind_faq h1{
+		line-height: 20px;
+	}
+
+	#individual_content h1{
+		line-height: 20px;
+	}
+
+
 
 }
 
