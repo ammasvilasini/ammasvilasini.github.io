@@ -7,7 +7,7 @@ var map;
 	      Description: 'my description',
 	      lat: '43.7629',
 	      lng: '11.2652',
-          id: "4b3276d5f964a520620c25e3",
+          id: "4d9a662a674ca14376eaba43",
         },
         { name: 'Duomo',
 		  Description: 'my description',
@@ -114,10 +114,11 @@ var ViewModel = function () {
         self.visible.push(place);
     });
         
-        // FOURSQUARE API - AJAX REQUEST
+        // FOURSQUARE API - AJAX REQUEST - FIND PLACE FROM THE ID
         $.ajax({
             url: 'https://api.foursquare.com/v2/venues/' + placeItem.id() +
-           '?client_id=CNSR1COIXHKZLLTK0VAA4UJHS10C41ZCY3E1FL2WBWGHO3YX&client_secret=NM4SCCPWABLZY1YNJLXKVX4Y5HUIWGSP21LXY4UKNM5KVWRT',
+           '?client_id=CNSR1COIXHKZLLTK0VAA4UJHS10C41ZCY3E1FL2WBWGHO3YX&client_secret=NM4SCCPWABLZY1YNJLXKVX4Y5HUIWGSP21LXY4UKNM5KVWRT&v=20130815',
+            //TO PARSE JSON RESPONSE
             dataType: "json",
             success: function (data) {
                 // Make results easier to handle
