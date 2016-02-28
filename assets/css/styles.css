@@ -19,9 +19,11 @@ h2{
     height: 800px;
 }
 
-.search-container {
-	margin-left: 20px;
+
+.search-bar {
+	margin-left: 30px;
 }
+
 /* TOGGLE */
 
 #wrapper {
@@ -108,24 +110,6 @@ h2{
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
-
-.sidebar-nav > .sidebar-brand {
-    height: 65px;
-    font-size: 18px;
-    line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-
-
 
 
 @media(min-width:768px) {
