@@ -39,38 +39,25 @@
 <!--    SIDEBAR
 		================================================================================= -->
 		<div id="wrapper">
-			<div id="sidebar-wrapper">
-				<div class = "sidebar-nav">
-						<h1>Tour Florence</h1>
-						<div class="search-bar">
+                <div class="row">
+                    <div class ="col-sm-3">
+				        <div class = "sidebar-nav">
+						  <h1>Tour Florence</h1>
+						  <div class="search-bar">
 							<input id="search" placeholder="Search by name" data-bind="textInput: userInput, event: {keyup: filterMarkers}">
-						</div>
-						<div class ="folderNav">
+						  </div>
+						  <div class ="folderNav">
 							<ul id="list-view" data-bind="foreach: visible">
 								<li id="list-name" data-bind="text: name, click: $parent.showInfo"></li>
 							</ul>
-						</div><!-- end folder nav -->
-
-				</div><!-- end sidebar-nav -->
-			</div><!-- end sidebar-wrapper -->
-
-<!-- <li class="search-result" data-bind="text: name, click:$parent.setCurrentLocation"></li> -->
-
-
-<!--    MAP
-		================================================================================= -->
-
-			<div id="page-content-wrapper">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
-							<div id="map"></div>
-						</div><!-- end col -->
-					</div><!-- row -->
-				</div><!-- end container-fluid -->
-			</div><!--  end page-content-wrapper -->
-		</div><!-- end wrapper -->
+						  </div><!-- end folder nav -->
+				        </div><!-- end sidebar-nav -->
+                    </div><!-- end col-->
+                    <div class="col-sm-9">
+                        <div id="map"></div>
+                    </div>
+                </div><!-- end row-->
+        </div>
 
 
 
@@ -80,14 +67,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="assets/js/jquery-2.2.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-        <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 	<script src="assets/js/knockout-3.4.0.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     <script src="assets/js/app.js"></script>
