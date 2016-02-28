@@ -7,7 +7,7 @@ var map;
 	      Description: 'my description',
 	      lat: '43.7629',
 	      lng: '11.2652',
-          id: "4d9a662a674ca14376eaba43",
+          id: "4b3276d5f964a520620c25e3",
         },
         { name: 'Duomo',
 		  Description: 'my description',
