@@ -149,7 +149,7 @@ var ViewModel = function () {
                 var contentString = '<div id="iWindow"><h4>' + placeItem.name() + '</h4><div id="pic"><img src="' +
                         placeItem.photoPrefix() + '110x110' + placeItem.photoSuffix() +
                         '" alt="Image Location"></div><p>Information from Foursquare:</p><p>' +
-                      '</p><p>Description: ' + placeItem.Description() + '</p><p>Rating: ' + placeItem.rating() +
+                      '<h2>' + placeItem.Description() + '</h2></p><p>Rating: ' + placeItem.rating() +
                         '</p><p><a href=' + placeItem.url() + '>' + placeItem.url() +
                         '</a></p><p><a target="_blank" href=' + placeItem.canonicalUrl() +
                         '>Foursquare Page</a></p><p><a target="_blank" href=https://www.google.com/maps/dir/Current+Location/' +
