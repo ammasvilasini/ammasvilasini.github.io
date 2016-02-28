@@ -11,24 +11,24 @@ var map;
 		{ name: 'Duomo',
 			lat: '43.7732',
 			lng: '11.2560',
-		  id: "51a78933498e8d9e020f8d81",
+		    id: "51a78933498e8d9e020f8d81",
 		},
 		{ name: 'Piazza della Signoria',
 			lat: '43.7696',
 			lng: '11.2558',
-		  id: "4b81729af964a520a7a630e3"
+		    id: "4b81729af964a520a7a630e3",
 
 		},
 		{ name: 'Piazza del Duomo',
 			lat: '43.7729',
 			lng: '11.2558',
-		  id: "4b36068ef964a520c12f25e3",
+		    id: "4b36068ef964a520c12f25e3",
 
 		},
 		{ name: 'Ponte Vecchio',
 			lat: '43.7680',
 			lng: '11.2532',
-		  id: "4b6ed35df964a52038cc2ce3",
+		    id: "4b6ed35df964a52038cc2ce3",
 
 		}
 	];
@@ -134,7 +134,7 @@ var ViewModel = function () {
 
 			 // CONTENT STRING FOR THE INFOWINDOW
 				var contentString = '<div id="iWindow"><h4>' + placeItem.name() + '</h4><div id="pic"><img src="' +
-				placeItem.photoPrefix() + '110x110' + placeItem.photoSuffix() + '" alt="Image Location"></div><p>Foursquare Stats:</p><p>' + '</p><p>Rating: ' + placeItem.rating() + '</div>';
+				placeItem.photoPrefix() + '110x110' + placeItem.photoSuffix() + '" alt="Image Location"></div><p>Foursquare Stats:</p><p>' + '</p><p>Rating: ' + placeItem.rating() +  '</div>';
 
 			  //ADD INFO WINDOWS
 				google.maps.event.addListener(placeItem.marker, 'click', function () {
@@ -167,6 +167,7 @@ var ViewModel = function () {
 	// MARKER ANIMATES ACCORDING TO USER CLICK
 	self.showInfo = function (placeItem) {
 		google.maps.event.trigger(placeItem.marker, 'click');
+//	
 	};
 
 	self.userInput = ko.observable('');
