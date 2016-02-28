@@ -13,27 +13,27 @@ var map;
 		  Description: 'my description',
 		  lat: '43.7732',
 		  lng: '11.2560',
-          id: "4e54fb65814df0239959f785",
+          id: "51a78933498e8d9e020f8d81",
 		},
-		{ name: 'Piazza del Signoria',
+		{ name: 'Piazza della Signoria',
 		  Description: 'my description',
 		  lat: '43.7696',
 		  lng: '11.2558',
-          id: "4ae9a73ff964a5208ab521e3"
+          id: "4b81729af964a520a7a630e3"
          
 		},
         { name: 'Piazza del Duomo',
 		  Description: 'my description',
 		  lat: '43.7729',
 		  lng: '11.2558',
-          id: "4b9bd043f964a5204e2836e3",
+          id: "4b36068ef964a520c12f25e3",
          
         },
         { name: 'Ponte Vecchio',
 		  Description: 'my description',
 		  lat: '43.7680',
 		  lng: '11.2532',
-          id: "4e4455eb1838e44e898badeb",
+          id: "4b6ed35df964a52038cc2ce3",
 
         }
     ];
