@@ -89,6 +89,7 @@ var ViewModel = function () {
       // INFO WINDOW
     var infowindow = new google.maps.InfoWindow({
         maxWidth: 200,
+        maxHeight: 200,
     });
 
     // MARKER
