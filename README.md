@@ -19,6 +19,8 @@ or you can download the zip file of this repository and run the index.html file 
 #Libraries/Resources Used:
 <ul>
   <li>Knockout JS Library</li>
+  <li>jquery v.2.2.0</li>
+  <li>ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js</li>
   <li>Bootstrap Responsive Grid</li>
   <li>Google Fonts</li>
 </ul>
