@@ -37,7 +37,6 @@ var map;
 //GETTING THE MAP ON THE SCREEN
 	function initMap() {
 		"use strict";
-	  // Create a map object and specify the DOM element for display.
 	  map = new google.maps.Map(document.getElementById('map'), {
 		 center: {lat: 43.7658059, lng: 11.2619084},
 		 scrollwheel: false,
@@ -89,7 +88,6 @@ var ViewModel = function () {
 	// MARKER
 	var marker;
 
-	// I NEED TO MAKE A NOTE HERE
 	self.placeList().forEach(function (placeItem) {
 
 
@@ -109,7 +107,7 @@ var ViewModel = function () {
 		self.visible.push(place);
 	});
 
-		// FOURSQUARE API - AJAX REQUEST - FIND PLACE FROM THE ID
+		// FOURSQUARE API - AJAX REQUEST - FIND PLACE FROM THE ID, GET RATING AND BEST PHOTO FROM FOURSQUARE
 		$.ajax({
 			url: 'https://api.foursquare.com/v2/venues/' + placeItem.id() +
 		   '?client_id=CNSR1COIXHKZLLTK0VAA4UJHS10C41ZCY3E1FL2WBWGHO3YX&client_secret=NM4SCCPWABLZY1YNJLXKVX4Y5HUIWGSP21LXY4UKNM5KVWRT&v=20130815',
@@ -147,14 +145,13 @@ var ViewModel = function () {
 					infowindow.setContent(contentString);
 				});
 			},
-			// Alert the user on error. Set messages in the DOM and infowindow
+			// ERROR MESSAGE FOR FOURSQUARE
 			error: function (e) {
 				infowindow.setContent('<h5>Foursquare aint happening now! Please try later.</h5>');
-//				  document.getElementById("error").innerHTML = "<h4>Foursquare data is unavailable. Please try refreshing later.</h4>";
 			}
 		});
 
-		// This event listener makes the error message on AJAX error display in the infowindow
+
 		google.maps.event.addListener(marker, 'click', function () {
 			infowindow.open(map, this);
 			placeItem.marker.setAnimation(google.maps.Animation.BOUNCE);
