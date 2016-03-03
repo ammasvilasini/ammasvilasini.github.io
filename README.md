@@ -9,42 +9,38 @@ Easiest way is to visit this site: http://ammasvilasini.github.io/
 or you can download the zip file of this repository and run the index.html file in your favorite web browser. 
 
 #Features:
-<ul>
-  <li>Responsive web page - on mobile the menu stacks on top of the map</li>
-  <li>Search Bar - filters locations as you type</li>
-  <li>List items in menu - when you click on a menu item, it will animate the marker of that location and give you information 
-   about that place.</li>
-</ul>
+*Responsive web page - on mobile the menu stacks on top of the map</li>
+*Search Bar - filters locations as you type</li>
+*List items in menu - when you click on a menu item, it will animate the marker of that location and give you information about that place.
+
 
 #Libraries/Resources Used:
-<ul>
-  <li>Knockout JS Library</li>
-  <li>jquery v.2.2.0</li>
-  <li>ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js</li>
-  <li>Bootstrap Responsive Grid</li>
-  <li>Google Fonts</li>
-</ul>
+*Knockout JS Library
+*jquery v.2.2.0
+*ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+*Bootstrap Responsive Grid
+*Google Fonts
+
 
 #Extremely Useful References/Resources
-<ul>
-  <li>http://knockoutjs.com/documentation/introduction.html</li>
-  <li>http://learn.knockoutjs.com/</li>
-  <li>http://knockoutjs.com/examples/collections.html</li>
-  <li>http://jsfiddle.net/rniemeyer/GSvnh/</li>
-  <li> https://developer.foursquare.com/</li>
-  <li> https://developer.foursquare.com/overview/responses</li>
-  <li> https://developer.foursquare.com/overview/versioning</li>
-  <li> https://developer.foursquare.com/docs/venues/search</li>
-  <li>https://www.mapbox.com/mapbox.js/example/v1.0.0/places-from-foursquare/</li>
-  <li>https://www.pluralsight.com/courses/knockout-mvvm (you have to sign up or get a free trial) </li>
-  <li>http://www.barbarianmeetscoding.com/blog/2013/04/09/barbarian-meets-knockout-dot-js-introduction/</li>
-  <li>http://www.barbarianmeetscoding.com/wiki/knockout/</li>
-  <li>https://discussions.udacity.com/t/i-need-guidance-with-project-5-please/157446/2</li>
-  <li>https://discussions.udacity.com/t/showing-the-content-of-an-array/47362/4</li>
-  <li>https://discussions.udacity.com/t/trouble-with-infowindows-and-contentstring/39853/14</li>
-  <li>https://discussions.udacity.com/t/foursquare-results-undefined-until-the-second-click-on-infowindow/39673/2</li>
-  <li>https://discussions.udacity.com/t/question-on-foursquare-api/37268</li>
-  <li>https://discussions.udacity.com/t/getting-400-or-410-message-on-my-foursquare-ajax-call/45521</li>
-  <li>Udacity P5 Office Hours</li>
+*http://knockoutjs.com/documentation/introduction.html
+*http://learn.knockoutjs.com/
+*http://knockoutjs.com/examples/collections.html
+*http://jsfiddle.net/rniemeyer/GSvnh/
+*https://developer.foursquare.com/
+*https://developer.foursquare.com/overview/responses
+*https://developer.foursquare.com/overview/versioning
+*https://developer.foursquare.com/docs/venues/search
+*https://www.mapbox.com/mapbox.js/example/v1.0.0/places-from-foursquare/
+*https://www.pluralsight.com/courses/knockout-mvvm (you have to sign up or get a free trial)
+*http://www.barbarianmeetscoding.com/blog/2013/04/09/barbarian-meets-knockout-dot-js-introduction/
+*http://www.barbarianmeetscoding.com/wiki/knockout/</li>
+*https://discussions.udacity.com/t/i-need-guidance-with-project-5-please/157446/2
+*https://discussions.udacity.com/t/showing-the-content-of-an-array/47362/4
+*https://discussions.udacity.com/t/trouble-with-infowindows-and-contentstring/39853/14
+*https://discussions.udacity.com/t/foursquare-results-undefined-until-the-second-click-on-infowindow/39673/2
+*https://discussions.udacity.com/t/question-on-foursquare-api/37268
+*https://discussions.udacity.com/t/getting-400-or-410-message-on-my-foursquare-ajax-call/45521
+*Udacity P5 Office Hours
 </ul>
 
