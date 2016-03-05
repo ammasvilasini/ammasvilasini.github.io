@@ -50,6 +50,12 @@ var map;
 
 	}
 
+	//GIVES ERROR IF GOOGLE MAPS DOES NOT LOAD
+	function googleError() {
+		"use strict";
+		document.getElementById('map').innerHTML = "<h2>Google Maps is not loading. Please try refreshing the page later.</h2>";
+	}
+
 	//OBSERVABLE ITEMS FOR THE INFO WINDOW
 	var items = function (data) {
 		"use strict";
