@@ -36,26 +36,29 @@ h2 {
 	 text-rendering: optimizelegibility;
 }
 
-/*USED IN THE SLIDERS & THUMBNAILS*/
+/*USED IN THE THUMBNAILS*/
 h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
-    font-weight: 700;
+    font-weight: 300;
     text-transform: uppercase;
-    text-shadow: .7px .7px 0px #2F3942;
-  
+    color: #FF7F00;
+    text-align: center;
 }
-/*A LIGHT HEADING*/
+
+/* PERFECT DAY */
 
 h4 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: black;
+    font-size: 2.5em;
+    font-weight: 700;
     -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
      text-transform: uppercase;
+     color: #FF7F00;
+     text-align: center;
 }
+
 
 /* BUTTONS */
 
@@ -73,7 +76,7 @@ h4 {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-	background: #FF7F00;
+	background: #E77A0E;
 }
 .btn-primary:active, .btn-primary.active {
 	background:  #FF7F00;
@@ -199,11 +202,20 @@ h4 {
 
 .blueBar {
     background-color: #01B2F6;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
     color: #fff;
-    text-shadow: 1px 1px 0px #2086AD; 
-    text-align: center;
+    text-align: left; 
+}
+
+.blueBar h2 {
+    font-size: 2.4em;
+    text-shadow: 2px 2px 0px #2086AD; 
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+ 
+
 }
 
 
@@ -233,24 +245,39 @@ h4 {
     padding-left: 5%;
 }
 
+.slider h3 {
+    font-size: 1.3em;
+    -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+}
+
 /*******PERFECT DAY SECTION**********/
 
 .perfectDay {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .perfectDay h4 {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .thumbnail {
-    background-color: #FF7F00;
+    background-color: transparent;
 
+}
+
+.perfectDay h3 {
+     font-weight: 700;
 }
 
 .thumbnail p {
     color: #fff;
+    padding-top: 40px;
 }
 
 .thumbnail h4 {
@@ -259,8 +286,6 @@ h4 {
 }
 
 
-
- 
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -284,6 +309,44 @@ h4 {
     text-shadow: .5px .5px 0px #2F3942;
 }
 
+/******* TOURNAMENT STATIC**********/
+
+.tournament_static {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/tournaments.jpg');
+    color: #fff;
+     -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px; 
+
+}
+
+#tournament-heading {
+    font-size: 2.4em;
+    color: rgba(255,255,255,0.8);
+    margin-top: 125px;
+    text-align: left; 
+    padding-left: 15px;
+}
+
+#tournament-text{
+    padding-bottom: 40px;
+}
+
+#shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+/*    padding: 30px;*/
+    text-align: right;
+    min-height: 400px;
+    padding-top: 140px;
+    padding-right: 40px;
+}
+
+
+
 /*******UPCOMING TOURNAMENTS**********/
 
 .upcoming {
@@ -297,11 +360,21 @@ h4 {
     max-width: 80px;
 }
 
-.testimonials h2{
-    text-align: center;
-}
+
 
 /******* TESTIMONIALS **********/
+
+
+
+.testimonials h2 {
+    padding-top: 70px;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+}
 
 .testimonials {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/testimonial_bg.jpg);
@@ -345,14 +418,7 @@ cite img {
     margin-top: 15px;
 }
 
-.testimonials h2 {
-    padding-top: 70px;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-	 text-rendering: optimizelegibility;
-    font-size: 2em;
-    letter-spacing: 2px;  
-}
+
 
 .testimonials hr {
     margin-top: 40px;
@@ -407,6 +473,111 @@ cite img {
 
 }
 
+.blueBarFooter {
+    background-color: #01B2F6;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center; 
+}
 
+.blueBarFooter h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #2086AD; 
+    padding-bottom: 15px;
+    margin-bottom: 0;
 
+}
 
+/*****  MEDIA QUERIES ********/
+
+/*when the screen is smaller than 768*/
+@media screen and ( max-width: 768px ) {
+    .navbar-right>li:hover{
+        background-color: #01B2F6;
+    }
+    
+    h1 {
+        font-size: 1em;
+    }
+    
+}
+
+/*when the screen is smaller than 1090px*/
+@media screen and ( max-width : 991px ) {
+    .navbar-right>li{
+        font-size: .6em;
+    }
+    
+    .jumbotron {
+        margin-top: 0px;
+        background-attachment: fixed;
+        max-height: 250px;
+    }
+    
+    #jumboContent {
+        padding-top: 10px;
+        font-size: .9em;
+}
+    
+    .blueBar h2 {
+        font-size: 1.8em;
+    }
+    
+    .blueBar {
+        padding: 4%;
+    }
+    
+    .thumbnail p {
+        padding-top: 200px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+
+}
+
+/*when the screen is smaller than 700*/
+@media screen and ( max-width: 700px ) {
+   .thumbnail p {
+        padding-top: 80px;
+        padding-left: 20%;
+        padding-right: 20%;
+       font-size: .8em;
+    }
+    
+}
+
+/*when the screen is smaller than 768*/
+@media screen and ( max-width: 768px ) {
+    .navbar-right>li:hover{
+        background-color: #01B2F6;
+    }
+    
+    .perfectDay {
+        padding-bottom: 50px;
+        padding-top: 35px;
+    }
+    
+}
+
+/*when the screen is larger than 991px*/
+@media screen and ( min-width : 991px) {
+     .thumbnail p {
+        padding-top: 10px;
+        padding-left: 20%;
+        padding-right: 20%;
+       font-size: .8em;
+    }
+
+}
+
+/*when the screen is larger than 1068px*/
+@media screen and ( min-width : 1068px) {
+     
+    .perfectDay h3 {
+        font-size: 90%;
+        font-weight: 700;
+    }
+
+}
