@@ -12,6 +12,12 @@ orange     #FF7F00;
     box-sizing: border-box;
 }
 
+/*
+* {
+    outline: 1px solid red;
+}
+*/
+
 /* TYPOGRAPHY */
 
 body {
@@ -332,7 +338,9 @@ h4 {
     margin-top: 125px;
     text-align: left; 
     padding-left: 15px;
+   
 }
+
 
 #tournament-text{
     padding-bottom: 40px;
@@ -505,7 +513,7 @@ cite img {
     
 }
 
-/*when the screen is smaller than 1090px*/
+/*when the screen is smaller than 991px*/
 @media screen and ( max-width : 991px ) {
     .navbar-right>li{
         font-size: .6em;
@@ -536,6 +544,11 @@ cite img {
         padding-right: 20%;
     }
     
+     #footerBrand img{
+       height: 80%;
+
+    }
+    
 
 }
 
@@ -561,10 +574,6 @@ cite img {
         padding-top: 35px;
     }
     
-    #footerBrand img{
-       height: 80%;
-
-    }
     .bottomFooter p {
         font-weight: 600;
         font-size: 80%
