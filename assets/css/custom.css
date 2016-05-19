@@ -346,10 +346,9 @@ h4 {
 
 #shadow {
     background-color: rgba(0, 0, 0, 0.5);
-/*    padding: 30px;*/
     text-align: right;
-    min-height: 400px;
-    padding-top: 140px;
+    margin-top: 130px;
+
 
    
 }
