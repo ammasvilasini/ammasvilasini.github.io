@@ -347,10 +347,7 @@ h4 {
 #shadow {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: right;
-    margin-top: 130px;
-
-
-   
+    margin-top: 130px; 
 }
 
 
@@ -545,6 +542,27 @@ cite img {
      #footerBrand img{
        height: 80%;
 
+    }
+    
+    #tournament-heading {
+        font-size: 2.4em;
+        color: rgba(255,255,255,0.8);
+        margin-top: 20px;
+        text-align: center; 
+       
+
+        }
+
+
+    #tournament-text{
+        padding-bottom: 10px;
+    }
+
+    #shadow {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-top: 30px;
+        
     }
     
 
