@@ -352,7 +352,7 @@ h4 {
     text-align: right;
     min-height: 400px;
     padding-top: 140px;
-    padding-right: 40px;
+    margin-right: 40px;
     outline: 1px solid red;
 }
 
