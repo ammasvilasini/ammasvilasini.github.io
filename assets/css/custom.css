@@ -12,9 +12,6 @@ orange     #FF7F00;
     box-sizing: border-box;
 }
 
-* {
-    outline: 1px solid red;
-}
 
 /* TYPOGRAPHY */
 
@@ -551,7 +548,7 @@ cite img {
         text-align: center; 
        
 
-        }
+    }
 
 
     #tournament-text{
@@ -563,6 +560,10 @@ cite img {
         text-align: center;
         margin-top: 30px;
         
+    }
+    
+    .lead {
+        font-size: 80%;
     }
     
 
@@ -606,6 +607,7 @@ cite img {
         padding-right: 20%;
        font-size: .8em;
     }
+    
 
 }
 
