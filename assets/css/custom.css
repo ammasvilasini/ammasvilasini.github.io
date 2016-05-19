@@ -243,6 +243,7 @@ h4 {
     color: #fff;
     text-align: left;
     padding-left: 5%;
+    padding-right: 10%
 }
 
 .slider h3 {
@@ -253,6 +254,7 @@ h4 {
     text-transform: uppercase;
     color: #fff;
     text-align: left;
+    padding-right: 5%;
 }
 
 /*******PERFECT DAY SECTION**********/
@@ -557,6 +559,16 @@ cite img {
     .perfectDay {
         padding-bottom: 50px;
         padding-top: 35px;
+    }
+    
+    #footerBrand img{
+       height: 80%;
+
+    }
+    .bottomFooter p {
+        font-weight: 600;
+        font-size: 80%
+
     }
     
 }
