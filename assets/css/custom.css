@@ -4,15 +4,8 @@
 light blue  #01B2F6;
 dark blue  #2086AD;
 orange     #FF7F00;
+grey       #F4F4EF;
 */
-
-/* GLOBAL STYLES */
-
-* {
-    box-sizing: border-box;
-}
-
-
 /* TYPOGRAPHY */
 
 body {
@@ -37,6 +30,25 @@ h2 {
 	 text-rendering: optimizelegibility;
 }
 
+#peace {
+    font-size: 2.3em;
+}
+
+#rightP {
+    padding-top: 20px;
+    font-size: 1.1em;
+   
+}
+
+#leftP {
+    border-right: 1px solid #01B2F6;
+    font-size: 1.1em;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+
 /*USED IN THE THUMBNAILS*/
 h3 {
     font-size: 1.2em;
@@ -59,6 +71,82 @@ h4 {
      color: #FF7F00;
      text-align: center;
 }
+
+/*DRY STORAGE*/
+h5 {
+    font-size: 1.6em;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+     text-transform: uppercase;
+     color: rgba(0,0,0,0.8)
+     text-align: center;
+}
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#left {
+/*    background-color:#FF7F00;*/
+
+    min-height: 350px;
+    
+}
+
+.fullContent {
+    background-color: #F4F4EF;
+    min-height: 400px;
+    color: rgba(0,0,0,0.8);
+}
+/*left aligned on events page*/
+.fullContent2 {
+    background-color: #F4F4EF;
+    color: rgba(0,0,0,0.8);
+    padding-left: 50px;
+}
+
+.fullContent2 h2 {
+    color: #01B2F6;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.gettingThere {
+    background-color: #fff;
+    min-height: 300px;
+    color: rgba(0,0,0,0.8);
+}
+
+.gettingThere h2 {
+    color: #01B2F6;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fullContent h2 {
+    color: #01B2F6;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#directionsP {
+    text-align: center;
+}
+
+
+
 
 
 /* BUTTONS */
@@ -165,6 +253,28 @@ h4 {
     
 }
 
+.feature-image {
+    height: 350px;
+
+}
+/*WARNING - COULD CAUSE SCROLLING*/
+.feature-image h1 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    font-size: 2.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    line-height: 60px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+    -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    
+}
+
 .inlineEmph {
     font-style: italic;
     color: #FF7F00;
@@ -210,16 +320,47 @@ h4 {
 }
 
 .blueBar h2 {
+    font-size: 2.9em;
+    text-shadow: 2px 2px 0px #2086AD; 
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+
+}
+
+.blueBar2 {
+    background-color: #01B2F6;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #fff;
+    text-align: center; 
+}
+
+.blueBar2 h2 {
     font-size: 2.4em;
     text-shadow: 2px 2px 0px #2086AD; 
     padding-bottom: 15px;
     margin-bottom: 0;
     letter-spacing: .5px;
- 
 
 }
 
+.blueBar3 {
+    background-color: #01B2F6;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #fff;
+    text-align: center; 
+}
 
+.blueBar3 h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #2086AD; 
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+
+}
 
 /***  SLIDER  ***/
 
@@ -258,11 +399,11 @@ h4 {
     padding-right: 5%;
 }
 
-/*******PERFECT DAY SECTION**********/
+/*******PERFECT DAY SECTION GRID  **********/
 
 .perfectDay {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 
 .perfectDay h4 {
@@ -280,7 +421,8 @@ h4 {
 
 .thumbnail p {
     color: #fff;
-    padding-top: 40px;
+    padding-top: 20px;
+    font-weight: 600;
 }
 
 .thumbnail h4 {
@@ -301,15 +443,28 @@ h4 {
     background:rgba(255, 127, 0, 0.75);
     width:100%;
     height:100%;
-    padding:2%;
     display: none;
     text-align:center;
     color:#fff !important;
     z-index:2;
+    
 }
 
 .caption p{
     text-shadow: .5px .5px 0px #2F3942;
+    margin-top: 10px;
+    
+}
+
+#grid-events {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#grid-heading-events {
+    padding-bottom: 25px;
 }
 
 /******* TOURNAMENT STATIC**********/
@@ -354,7 +509,7 @@ h4 {
 .upcoming {
     background-color:  #FF7F00;
     color: #fff;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
 
@@ -491,7 +646,174 @@ cite img {
 
 }
 
+/*****   MARINA INFORMATION PAGE ******/
+
+.headerDiv {
+    background-color: #01B2F6;
+}
+
+.headerDiv h1{
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.headerDivBlue {
+    background-color: #01B2F6;
+}
+
+.headerDivBlue h1{
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+
+#launch-heading {
+    font-size: 2.9em;
+    color: rgba(255,255,255,0.9);
+    margin-top: 125px;
+    text-align: center; 
+    padding-left: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+   
+}
+
+.launch-static {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/testimonial_bg.jpg');
+    color: #fff;
+     -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px; 
+    padding-bottom: 50px;
+   
+}
+
+
+
+.launch-static p{
+    text-align: left;
+    margin-left: 10%;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.7)
+  
+   
+}
+
+.launch-static hr{
+    max-width: 80px;
+     border-top: 2px solid #01B2F6;
+}
+
+#ifClosed {
+    text-align: center;
+    margin-left: 0;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.7)
+ 
+}
+
+
+#blueBg {
+    padding: 10px;
+    background-color: rgba(0, 177, 246, 0.7);
+}
+
+#blueBg2 {
+    padding: 30px;
+    background-color: rgba(0, 177, 246, 0.7);
+    margin-left: 0;
+}
+
+.infoThumbs {
+    background-color: #fff;
+    min-height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.infoThumbs-directions {
+    background-color: #F4F4EF;
+    min-height: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.thumb {
+/*    background-color:pink;*/
+    min-height: 400px;
+    max-width: 100%;
+}
+
+.thumb img {
+    max-height: 400px;
+    max-width: auto;
+}
+
+.thumb h2 {
+    font-size: 1.4em;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #01B2F6;
+}
+
+.headP {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.17px;
+    -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+    margin-bottom: 5px;
+    
+}
+
+#directionsHeading {
+    padding-top: 30px;
+}
+
+#dansQuote {
+    padding-bottom: 0;
+}
+
+.storage {
+    text-align: center;
+}
+
+.map {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*
+.map iframe {
+    max-width: 500px;
+}
+*/
+
+
 /*****  MEDIA QUERIES ********/
+
+/*when the screen is smaller than 768*/
+@media screen and ( max-width: 768px ) {
+     
+   
+    
+    
+    
+}
 
 /*when the screen is smaller than 768*/
 @media screen and ( max-width: 768px ) {
@@ -501,6 +823,15 @@ cite img {
     
     h1 {
         font-size: 1em;
+    }
+    
+    #launch-heading {
+    font-size: 2.5em;
+
+    }
+    
+     .caption p {
+        padding-top: 60px;
     }
     
 }
@@ -517,6 +848,29 @@ cite img {
         max-height: 250px;
     }
     
+   .feature-image {
+        margin-top: 0px;
+        background-attachment: fixed;
+        min-height: 250px;
+
+}
+
+.feature-image h1 {
+        padding-top: 100px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fff;
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.35px;
+        line-height: 40px;
+        
+    
+  
+}
+        
     #jumboContent {
         padding-top: 10px;
         font-size: .9em;
@@ -530,11 +884,6 @@ cite img {
         padding: 4%;
     }
     
-    .thumbnail p {
-        padding-top: 200px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
     
      #footerBrand img{
        height: 80%;
@@ -546,8 +895,6 @@ cite img {
         color: rgba(255,255,255,0.8);
         margin-top: 20px;
         text-align: center; 
-       
-
     }
 
 
@@ -566,17 +913,17 @@ cite img {
         font-size: 80%;
     }
     
+    .caption p{
+        margin-top: 40px;
+    
+    }
 
 }
 
 /*when the screen is smaller than 700*/
 @media screen and ( max-width: 700px ) {
-   .thumbnail p {
-        padding-top: 80px;
-        padding-left: 20%;
-        padding-right: 20%;
-       font-size: .8em;
-    }
+/*
+
     
 }
 
@@ -585,27 +932,19 @@ cite img {
     .navbar-right>li:hover{
         background-color: #01B2F6;
     }
-    
-    .perfectDay {
-        padding-bottom: 50px;
-        padding-top: 35px;
-    }
-    
+
     .bottomFooter p {
         font-weight: 600;
         font-size: 80%
 
     }
-    
 }
 
 /*when the screen is larger than 991px*/
 @media screen and ( min-width : 991px) {
-     .thumbnail p {
-        padding-top: 10px;
-        padding-left: 20%;
-        padding-right: 20%;
-       font-size: .8em;
+
+       .caption p {
+        font-size: .8em;
     }
     
 
