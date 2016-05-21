@@ -13,7 +13,7 @@
 		<link rel="icon" href="assets/img/favicon.ico">
 
 
-		<title>Big Break Marina</title>
+		<title>Marina Events</title>
 
 
 		<!-- Bootstrap Core CSS -->
@@ -38,7 +38,7 @@
 
 	</head>
 	<body>
-
+        
 		<!-- HEADER
 		================================================================================= -->
 			<header class="site-header" role="banner">
@@ -72,28 +72,47 @@
       </div><!-- /.container-fluid -->
 </nav>
 		</header>
-
-
-		<!-- HERO SECTION
-		================================================================================= -->
-	<div class="jumbotron">
-         <div class="container" id="jumboContent">
-             <h1>It's a <span class="inlineEmph">new day</span> at<br><span class="inlineBold"> BIG BREAK MARINA</span></h1>
-             <p><a class="btn btn-primary btn-lg round" href="#" role="button">Take the video tour <i class="fa fa-play" aria-hidden="true"></i></a></p>
-         </div>
-    </div>
-        
-		<!-- NEW OWNERSHIP SECTION
-		=========================================================================== -->
-     
-    <section class= "blueBar">
-        <div class="container">
-            <h2>Big Break Marina is under<br> new management &amp; ownership.</h2>
-            <p class="lead">When we took over Big Break Marina, we knew it was a naturally scenic, accessible gateway to the Delta with a storied past. But we also knew it needed a little TLC. And that’s exactly what we gave it. With renovated docks and like-new launch ramps, carefully cultivated landscape, and a fresh coat of paint just about everywhere, we know you’re going to love the new Big Break Marina as much as we do.</p>
-        </div>
-    </section>
+		
     
-    <!-- BOAT STORAGE SLIDER SECTION
+        <!-- HEADER TEXT DIV
+		=========================================================================== -->
+		
+		<section class="headerDiv">
+            <div class="container">
+		        <div class="row">
+		          <h1>MARINA EVENTS</h1> 
+		      </div>
+		  </div>
+		</section>
+      
+      <section class="feature-image">
+         <div style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/img/tournaments.jpg') center center; 
+          background-size:cover;" class="slider-size">
+          <div class="container">
+              <div class="row">
+                  <h1>All tournaments at the new <br>Big Break Marina are supported by<br> the city of Oakley.</h1>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+          <!-----UPCOMING TOURNAMENTS ------->
+    
+    <section class="upcoming">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2>Upcoming Tournaments <strong>2016</strong></h2>
+                    <hr class="light">
+                    <p class="lead">Wild West Bass Trail<br>May 14th Team Event<br>June 4th - 5th Pro-Am</p>
+
+                </div>
+            </div>
+        </div>
+        </section>
+        
+
+          <!-- TOURNAMENT SLIDER SECTION
 		=========================================================================== -->
 	<section class="slider">
         <div id="home_slider_1" class="carousel slide" data-ride="carousel">
@@ -101,16 +120,16 @@
      <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <div style="background:url('assets/img/storageSlide_1.jpg') center center; 
+              <div style="background:url('assets/img/testimonial_bg.jpg') center center; 
               background-size:cover;" class="slider-size">
                 
             <div class="carousel-caption text-left">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h3>Boat, Trailer and Camper Storage</h3>
-                        <p>With gated access, a resident Harbor Master, competitive prices
-and easy access to the Delta,<br> the new Big Break Marina is a safe, 
-friendly and convenient place to keep your rig.</p>
+                        <h3>Big Break Marina is tournament ready.</h3>
+                        <p>With an event stage for weigh-ins and trophy presentations, newly renovated launch docks, public restrooms, picnic area and parking for up to 250 boats and trailers, Big Break Marina 
+is an ideal place to hold your next fishing tournament.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -163,6 +182,41 @@ friendly and convenient place to keep your rig.</p>
         </div>
         </div>
     </section>	
+      
+    		<!-- CONSIDERING
+		=========================================================================== -->
+     
+    <section class= "blueBar3">
+        <div class="container">
+            <h2>If you’re considering Big Break Marina for your tournament or other event, we’d love to hear from you! Call or email for prices and questions.</h2>
+            
+        </div>
+    </section>
+       
+            <!-- TESTIMONIAL SECTION
+		=========================================================================== -->
+    <section class="testimonials" id="dansQuote">
+        <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                <blockquote>
+                   “Big Break Marina has had a complete turnaround in the last 12 months under the new ownership. I’m excited to see it restored to the place I met my wife 17 years ago. I’d encourage anyone to make Oakley their fishing destination for the Delta, with Big Break Marina as the gateway.”
+                    <cite><img src="assets/img/testimonial1.jpg"> John Doe, <em>Mayor of Oakley, CA</em></cite>
+                </blockquote>
+                </div>
+                 <div class="col-sm-6">
+                <blockquote>
+                   “Big Break Marina has had a complete turnaround in the last 12 months under the new ownership. I’m excited to see it restored to the place I met my wife 17 years ago. I’d encourage anyone to make Oakley their fishing destination for the Delta, with Big Break Marina as the gateway.”
+                    <cite><img src="assets/img/testimonial1.jpg"> John Doe, <em>Mayor of Oakley, CA</em></cite>
+                </blockquote>
+                </div>
+            </div>
+        </div>  
+    </section>
+        
+
+    
+ 
     
 <!--  ******** PERFECT DAY SECTION *************************-->
 
@@ -170,9 +224,10 @@ friendly and convenient place to keep your rig.</p>
 <section class="perfectDay">
     <div class="container">
         <div class="row">
-            <h4>Looking for a perfect day?<br> Look no further.</h4>
+            <h4 id="grid-heading-events">LOOKING FOR A PLACE TO HOLD<br> YOUR OUTDOOR EVENT?</h4>
+            <p id="grid-events">With it’s secluded feel but easy access from Highway 4, gorgeous sunsets, down-home landscaping, and friendly staff, Big Break Marina is the perfect place for your outdoor event. We do birthdays, graduation parties, weddings and more! </p>
         </div>
-         <div class="row no-gutters">
+        <div class="row no-gutters">
             <div class="col-sm-6 col-md-3 col-md-3">            
                 <div class="thumbnail">
                     <div class="caption">
@@ -213,42 +268,11 @@ friendly and convenient place to keep your rig.</p>
                 <h3>Onsite Kayak Rentals</h3>
               </div>        
           </div>
+         
     </div>
 </section>
-    
-        <!-- TOURNAMENT SECTION
-		=========================================================================== -->
-    <section class="tournament_static">
-        <div class="container">
-           <div class="row">
-               <div class="col-sm-6">
-                   <p id="shadow">With an event stage for weigh-ins<br> and trophy presentations, newly renovated launch docks,<br> public restrooms, picnic area and parking<br> for up to 250 boats and trailers,<br> Big Break Marina 
-is an ideal place to hold your<br> next fishing tournament. </p>
-               </div>
-               <div class="col-sm-6" id="tournamentDiv">
-                   <h2 id="tournament-heading">BIG BREAK<br>MARINA IS<br>TOURNAMENT<br> READY</h2>
-               </div>
-           </div>
-        </div> 
-    </section>
-    
-    <!-----UPCOMING TOURNAMENTS ------->
-    
-    <section class="upcoming">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2>Upcoming Tournaments <strong>2016</strong></h2>
-                    <hr class="light">
-                    <p class="lead">Wild West Bass Trail<br>May 14th Team Event<br>June 4th - 5th Pro-Am</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-        <!-- TESTIMONIALS SECTION
+   
+           <!-- WHAT THE MEDIA IS SAYING
 		=========================================================================== -->
     <section class="testimonials">
         <div class="container">
