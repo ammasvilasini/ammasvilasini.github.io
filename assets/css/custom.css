@@ -10,7 +10,7 @@ body {
 }
 
 body, html {
-overflow-y: hidden;
+/*overflow-y: hidden;*/
 }
 
 h1 {
@@ -36,13 +36,13 @@ a:active {
 /*DIVS*/
 
 #left {
-
+    height: 100vh;
   
 }
 
 #right {
     background-color: #fff;
-    height: 1000px;
+    height: 100vh;
  
 }
 
@@ -70,13 +70,13 @@ a:active {
         margin: 0 auto;
     }
     body, html {
-        overflow-y:scroll;
+/*        overflow-y:scroll;*/
         
     }
 
     #left {
 /*       min-height: 380px;*/
-        padding-bottom: 2px;
+/*        padding-bottom: 2px;*/
     }
     
 
@@ -93,7 +93,7 @@ a:active {
         font-size: .6em;
     }
     #right {
-        max-height: 400px;
+/*        max-height: 400px;*/
     }
  
     
