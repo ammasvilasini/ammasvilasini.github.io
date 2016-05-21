@@ -36,7 +36,7 @@ a:active {
 /*DIVS*/
 
 #left {
-    height: 700px;
+
   
 }
 
@@ -64,23 +64,21 @@ a:active {
 @media screen and ( max-width: 768px ) {
     #image {
         margin-top: 50px;
-        max-width: 250px;
+/*        max-width: 250px;*/
         float: none;
         padding: 0;
         margin: 0 auto;
     }
     body, html {
         overflow-y:scroll;
+        
     }
 
     #left {
-        height: 380px;
+/*       min-height: 380px;*/
+        padding-bottom: 2px;
     }
     
-    #right {
-        background-color: #fff;
-        height: 300px;
-    }
 
     #text {
         padding-top: 20px;
@@ -88,16 +86,15 @@ a:active {
     }
     
     h1 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     
     #text p {
         font-size: .6em;
     }
     #right {
-        background-color: #fff;
-        height: 400px;
-
+        max-height: 400px;
     }
+ 
     
 }
