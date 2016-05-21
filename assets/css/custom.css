@@ -35,12 +35,12 @@ a:active {
 
 /*DIVS*/
 
-#left {
+.left {
     height: 700px;
   
 }
 
-#right {
+.right {
     background-color: #fff;
     height: 1000px;
  
@@ -73,11 +73,11 @@ a:active {
         overflow-y:scroll;
     }
 
-    #left {
+    .left {
         height: 380px;
     }
     
-    #right {
+    .right {
         background-color: #fff;
         height: 300px;
     }
@@ -88,11 +88,13 @@ a:active {
         margin-top: 0;
     }
     
+/*
     #text p {
         font-size: .8em;
         padding-left: 20px;
         padding-right: 20px;
     }
+*/
     #right {
         background-color: #fff;
         height: 300px;
