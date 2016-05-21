@@ -50,36 +50,44 @@ a:active {
     margin-top: 100px;
     max-width: 350px;
     float: right;
+/*     border: 1px solid red;*/
 }
 
 #text {
     vertical-align: middle;
     margin-top: 200px;
+/*    border: 1px solid red;*/
 }
 
 
 /*when the screen is smaller than 768*/
 @media screen and ( max-width: 768px ) {
     #image {
-        margin-top: 100px;
-        max-width: 600px;
+        margin-top: 50px;
+        max-width: 250px;
         float: none;
         padding: 0;
+        margin: 0 auto;
     }
     body, html {
         overflow-y:scroll;
     }
+
     #left {
         height: 380px;
     }
-    #image {
-        margin-top: 30px;
+    
+    #right {
+        background-color: #fff;
+        height: 300px;
     }
+
     
     #text {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
+        margin-top: 0;
     }
     
     #text p {
@@ -89,5 +97,5 @@ a:active {
         background-color: #fff;
         height: 300px;
 
-}
+    }
 }
