@@ -7,9 +7,9 @@ body {
     margin-top: 0;
     color: #353535;
     text-align: center;
+    height: 100vh;
     
 }
-
 
 
 
@@ -62,22 +62,12 @@ a:active {
 
 /*when the screen is smaller than 768*/
 @media screen and ( max-width: 768px ) {
-    #image {
-        margin-top: 50px;
-        float: none;
-        margin: 0 auto;
-        padding-bottom: 10px;
-    }
     
-    #left {
-         padding-top: 50px;
+    #image {
+        margin-top: 20px;
     }
-   
 
-    #text {
-        padding-top: 20px;
-        margin-top: 0;
-    }
+       
     
     h1 {
         font-size: 1.5em;
@@ -86,7 +76,13 @@ a:active {
     #text p {
         font-size: .6em;
         padding-top: 30px;
+        margin-top: 0;
     }
+    
+    #left {
+    height: 400px;
+  
+}
 
  
     
