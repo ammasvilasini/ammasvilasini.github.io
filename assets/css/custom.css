@@ -65,10 +65,11 @@ a:active {
     
     #image {
         margin-top: 20px;
+        float: none;
+        margin: 0 auto;
+    
     }
 
-       
-    
     h1 {
         font-size: 1.5em;
     }
