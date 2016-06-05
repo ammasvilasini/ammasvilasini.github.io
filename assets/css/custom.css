@@ -295,7 +295,7 @@ h5 {
 }
 
 .jumbotron {
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/hero-family.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-family.jpg');
     color: #fff;
      -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -822,12 +822,12 @@ cite img {
 
 /*****  MEDIA QUERIES ********/
 
-/*when the screen is smaller than 768*/
-@media screen and ( max-width: 768px ) {
-     
-   
-    
-    
+/*when the screen is smaller than 1200*/
+@media screen and ( max-width: 1200px ) {
+    .navbar-right>li {
+        font-size: .7em;
+    }
+
     
 }
 
@@ -855,12 +855,12 @@ cite img {
 /*when the screen is smaller than 991px*/
 @media screen and ( max-width : 991px ) {
     .navbar-right>li{
-        font-size: .6em;
+        font-size: .8em;
     }
     
     .jumbotron {
         margin-top: 0px;
-        background-attachment: fixed;
+        background-attachment: local;
         max-height: 250px;
     }
     
@@ -870,6 +870,55 @@ cite img {
         min-height: 250px;
 
 }
+
+    .navbar-right>li:hover{
+        background-color: #01B2F6;
+    }
+    
+/*TO MAKE NAVBAR COLLAPSE at 991px*/
+    .navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+    overflow-y: auto !important;
+}
+
+.navbar-nav {
+    margin: 0;
+    float: none !important; 
+}
+
+.navbar-nav li {
+    float: none;
+}
+
+.navbar-nav li > .dropdown-menu {
+    border: 0;
+    float: none;
+    width: auto;
+    position: static;
+    box-shadow: none;
+    background: inherit;
+}
+    
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.89);
+    border-color: transparent;
+  
+    
+}
+   
+
 
 .feature-image h1 {
         padding-top: 100px;
@@ -982,3 +1031,7 @@ cite img {
     }
 
 }
+    
+
+    
+
