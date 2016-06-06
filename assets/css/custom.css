@@ -1015,6 +1015,13 @@ cite img {
     
 } 
 
+@media screen and ( min-width: 410px ) and ( max-width: 420px ) {
+    #jumboContent {
+        padding-top: 120px;
+       
+    }
+}
+
 
     
 
