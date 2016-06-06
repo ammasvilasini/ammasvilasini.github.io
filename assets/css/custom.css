@@ -1015,6 +1015,10 @@ cite img {
         height: 300px; /* This is your slider height */
     }
     
+    .blueBar2 h2 {
+        font-size: 1.9em;
+    }
+    
 }
     
 /*when the screen is smaller than 568 but larger than 375*********************/
@@ -1027,6 +1031,15 @@ cite img {
         height: 300px; /* This is your slider height */
     }
     
+    .blueBar2 h2 {
+        font-size: 1.2em;
+    }
+    
+    .blueBar2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
 } 
 
 @media screen and ( min-width: 666px ) and ( max-width: 668px ) {
@@ -1034,6 +1047,7 @@ cite img {
         padding-top: 50px;
        
     }
+    
     
 }
 
