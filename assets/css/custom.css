@@ -264,6 +264,13 @@ h5 {
     height: 350px;
 
 }
+
+/*
+#infoFeature {
+    margin-bottom: 50px;
+}
+*/
+
 /*WARNING - COULD CAUSE SCROLLING*/
 .feature-image h1 {
     padding-top: 80px;
@@ -706,7 +713,7 @@ cite img {
 }
 
 .launch-static {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/testimonial_bg.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/launch_bg.JPG');
     color: #fff;
      -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
