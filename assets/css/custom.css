@@ -1006,10 +1006,10 @@ cite img {
     
 }
     
-/*when the screen is smaller than 568*********************/
-@media screen and ( max-width: 568px ) and ( min-width: 319px ) {
+/*when the screen is smaller than 568 but larger than 319*********************/
+@media screen and ( min-width: 375px ) and  ( max-width: 568px ) {
      #jumboContent {
-        padding-top: 50px;
+        padding-top: 20px;
        
     }
     
