@@ -1011,6 +1011,10 @@ cite img {
     
     }
     
+     .slider-size {
+        height: 300px; /* This is your slider height */
+    }
+    
 }
     
 /*when the screen is smaller than 568 but larger than 375*********************/
@@ -1018,6 +1022,9 @@ cite img {
      #jumboContent {
         padding-top: 20px;
        
+    }
+    .slider-size {
+        height: 300px; /* This is your slider height */
     }
     
 } 
@@ -1027,6 +1034,7 @@ cite img {
         padding-top: 50px;
        
     }
+    
 }
 
 
@@ -1034,6 +1042,10 @@ cite img {
     #jumboContent {
         padding-top: 120px;
        
+    }
+    
+    .slider-size {
+        height: 250px; /* This is your slider height */
     }
 }
 
