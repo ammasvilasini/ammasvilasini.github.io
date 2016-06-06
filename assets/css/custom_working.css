@@ -249,7 +249,7 @@ h5 {
 /*************** JUMBOTRON *****************/
 .jumbotron h1 {
 /*    padding-top: 100px;*/
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 2.6em;
     font-weight: 300;
     letter-spacing: 0.35px;
@@ -313,7 +313,7 @@ h5 {
 
 .jumbotron a{
     font-size: .6em;
-    margin-top: 20px;
+    margin-top: 40px;
     -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
 }
@@ -821,103 +821,115 @@ cite img {
 
 
 /*****  MEDIA QUERIES ********/
-/*when the screen is smaller than 1200***************/
+
+/*when the screen is smaller than 1200*/
 @media screen and ( max-width: 1200px ) {
-    /*so the nav items dont go below the brand*/
-   .navbar-right>li {
+    .navbar-right>li {
         font-size: .7em;
     }
- 
-}
 
-/*when the screen is larger than 1068px***************/
-@media screen and ( min-width : 1068px) {
-    /*for the text in the rollover boxes*/
-      .perfectDay h3 {
-        font-size: 90%;
-        font-weight: 700;
-    }
-   
-}
-
-
-/*when the screen is smaller than 991px*****************/
-@media screen and ( max-width : 991px ) {
     
-    /*NAVBAR FOR MOBILE*/
-    .navbar-right>li {
-        font-size: .8em;
-    }
+}
+
+/*when the screen is smaller than 768*/
+@media screen and ( max-width: 768px ) {
     .navbar-right>li:hover{
         background-color: #01B2F6;
     }
-    /*TO MAKE NAVBAR COLLAPSE at 991px*/
-    .navbar-header {
-    float: none;
+    
+    h1 {
+        font-size: 1em;
     }
-
-    .navbar-toggle {
-        display: block;
-    }
-
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-
-    .navbar-collapse.collapse.in {
-        display: block !important;
-        overflow-y: auto !important;
-    }
-
-    .navbar-nav {
-        margin: 0;
-        float: none !important; 
-    }
-
-    .navbar-nav li {
-        float: none;
-    }
-
-    .navbar-nav li > .dropdown-menu {
-        border: 0;
-        float: none;
-        width: auto;
-        position: static;
-        box-shadow: none;
-        background: inherit;
-    }
-
-    .navbar-inverse {
-        background-color: rgba(34, 34, 34, 0.89);
-        border-color: transparent;
+    
+    #launch-heading {
+    font-size: 2.5em;
 
     }
     
+     .caption p {
+        padding-top: 60px;
+    }
     
-    /*JUMBOTRON FOR MOBILE*/
+}
+
+/*when the screen is smaller than 991px*/
+@media screen and ( max-width : 991px ) {
     .jumbotron h1 {
-        /*padding-top: 100px;*/
-        padding-bottom: 20px;
-        font-size: 1.5em;
-        line-height: 40px;
+/*    padding-top: 100px;*/
+    padding-bottom: 20px;
+    font-size: 2em;
+    line-height: 40px;
+
+    
+}
+    
+    .navbar-right>li{
+        font-size: .8em;
     }
+    
     .jumbotron {
         margin-top: 0px;
+        background-attachment: local;
         max-height: 250px;
     }
     
-    .jumbotron a{
-        font-size: .6em;
-        margin-top: 0px;
-    }
-    
-    /*FEATURE IMAGE FOR MOBILE*/
-    .feature-image {
+   .feature-image {
         margin-top: 0px;
         background-attachment: fixed;
         min-height: 250px;
+
+}
+
+    .navbar-right>li:hover{
+        background-color: #01B2F6;
     }
-    .feature-image h1 {
+    
+/*TO MAKE NAVBAR COLLAPSE at 991px*/
+    .navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+    overflow-y: auto !important;
+}
+
+.navbar-nav {
+    margin: 0;
+    float: none !important; 
+}
+
+.navbar-nav li {
+    float: none;
+}
+
+.navbar-nav li > .dropdown-menu {
+    border: 0;
+    float: none;
+    width: auto;
+    position: static;
+    box-shadow: none;
+    background: inherit;
+}
+    
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.89);
+    border-color: transparent;
+  
+    
+}
+   
+
+
+.feature-image h1 {
         padding-top: 100px;
         padding-bottom: 20px;
         padding-left: 20px;
@@ -928,16 +940,16 @@ cite img {
         text-transform: uppercase;
         letter-spacing: 0.35px;
         line-height: 40px;
-
-    }
+        
     
-    /*FOOTER MOBILE*/
-     #footerBrand img {
-        height: 80%;
-
-    }
+  
+}
+        
+    #jumboContent {
+        padding-top: 100px;
+       
+}
     
-    /*OTHER PAGE ELEMENTS FOR MOBILE*/
     .blueBar h2 {
         font-size: 1.8em;
     }
@@ -945,70 +957,89 @@ cite img {
     .blueBar {
         padding: 4%;
     }
+    
+    
+     #footerBrand img{
+       height: 80%;
+
+    }
+    
     #tournament-heading {
         font-size: 2em;
         color: rgba(255,255,255,0.8);
         margin-top: 20px;
         text-align: center; 
     }
+
+
     #tournament-text{
         padding-bottom: 10px;
     }
-     #shadow {
+
+    #shadow {
         background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
-        margin-top: 30px;  
+        margin-top: 30px;
+       
+        
     }
+    
     .lead {
         font-size: 80%;
     }
-     .caption p{
+    
+    .caption p{
         margin-top: 40px;
     
     }
+
 }
 
+/*when the screen is smaller than 700*/
+@media screen and ( max-width: 700px ) {
+/*
 
-/*when the screen is larger than 991px*******************/
-@media screen and ( min-width : 991px) {
-      .caption p {
-        font-size: .8em;
-    }
-       
+    
 }
 
-/*when the screen is smaller than 768*********************/
+/*when the screen is smaller than 768*/
 @media screen and ( max-width: 768px ) {
     .navbar-right>li:hover{
         background-color: #01B2F6;
     }
-     h1 {
-        font-size: 1em;
-    }
-    #jumboContent {
-        padding-top: 120px;
-       
-    }
-     #launch-heading {
-        font-size: 2.5em;
-    }
-      .caption p {
-        padding-top: 60px;
-    }
-     .bottomFooter p {
+
+    .bottomFooter p {
         font-weight: 600;
         font-size: 80%
+
     }
+    
     cite img {
         display: block;
     
-    }
-    
 }
     
+}
 
+/*when the screen is larger than 991px*/
+@media screen and ( min-width : 991px) {
 
+       .caption p {
+        font-size: .8em;
+    }
+    
 
+}
+
+/*when the screen is larger than 1068px*/
+@media screen and ( min-width : 1068px) {
+     
+    .perfectDay h3 {
+        font-size: 90%;
+        font-weight: 700;
+    }
+
+}
     
 
     
