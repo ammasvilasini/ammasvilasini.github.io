@@ -1015,12 +1015,22 @@ cite img {
     
 } 
 
+@media screen and ( min-width: 666px ) and ( max-width: 668px ) {
+    #jumboContent {
+        padding-top: 50px;
+       
+    }
+}
+
+
 @media screen and ( min-width: 384px ) and ( max-width: 420px ) {
     #jumboContent {
         padding-top: 120px;
        
     }
 }
+
+
 
 
     
