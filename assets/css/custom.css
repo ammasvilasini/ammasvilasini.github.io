@@ -1019,6 +1019,11 @@ cite img {
         font-size: 1.9em;
     }
     
+    .blueBar2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
 }
     
 /*when the screen is smaller than 568 but larger than 375*********************/
