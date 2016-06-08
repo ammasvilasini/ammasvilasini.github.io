@@ -825,6 +825,10 @@ cite img {
     padding-bottom: 50px;
 }
 
+  #right {
+        padding-right: 40px;
+    }
+
 /*
 .map iframe {
     max-width: 500px;
@@ -849,6 +853,7 @@ cite img {
         font-size: 90%;
         font-weight: 700;
     }
+    
    
 }
 
@@ -986,9 +991,7 @@ cite img {
         padding-top: 10px;
     }
     
-    #right {
-        padding-right: 40px;
-    }
+  
 }
 
 
