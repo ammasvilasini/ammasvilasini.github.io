@@ -262,11 +262,6 @@ h5 {
 
 }
 
-/*
-#infoFeature {
-    margin-bottom: 50px;
-}
-*/
 
 /*WARNING - COULD CAUSE SCROLLING*/
 .feature-image h1 {
@@ -1054,6 +1049,12 @@ cite img {
         border-right: transparent;
 
     }
+    
+        
+    #infoFeature {
+        height: 250px;
+    }
+    
     
 }
     
