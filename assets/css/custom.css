@@ -309,7 +309,7 @@ h5 {
 }
 
 .jumbotron {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero3.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/hero3.jpg');
     color: #fff;
      -webkit-font-smoothing: antialiased;
 	 text-rendering: optimizelegibility;
@@ -461,6 +461,7 @@ h5 {
     position:absolute;
     top:0;
     right:0;
+    font-size: 2em;
     background:rgba(255, 127, 0, 0.75);
     width:100%;
     height:100%;
@@ -473,7 +474,9 @@ h5 {
 
 .caption p{
     text-shadow: .5px .5px 0px #2F3942;
-    margin-top: 10px;
+    margin-top: 40px;
+    font-weight: 300;
+    line-height: 26px;
     
 }
 
@@ -857,6 +860,23 @@ cite img {
    .navbar-right>li {
         font-size: .7em;
     }
+    
+    .caption {
+        font-size: 2em;
+        background:rgba(255, 127, 0, 0.75);
+        width:100%;
+        height:100%;
+        
+
+    }
+
+    .caption p{
+        margin-top: 50px;
+        line-height: 27px;
+
+    }
+    
+    
  
 }
 
@@ -867,10 +887,26 @@ cite img {
         font-size: 90%;
         font-weight: 700;
     }
-    
-   
+     
 }
+/*when the screen is smaller than 1190px*****************/
+@media screen and ( max-width : 1190px ) {
+    .caption {
+        font-size: 1.6em;
+        background:rgba(255, 127, 0, 0.75);
+        width:100%;
+        height:100%;
 
+    }
+
+    .caption p{
+        margin-top: 30px;
+        line-height: 27px;
+
+    }
+    
+    
+}
 
 /*when the screen is smaller than 991px*****************/
 @media screen and ( max-width : 991px ) {
@@ -992,7 +1028,7 @@ cite img {
         font-size: 80%;
     }
      .caption p{
-        margin-top: 40px;
+         margin-top: 60px;
     
     }
     
@@ -1012,7 +1048,7 @@ cite img {
 /*when the screen is larger than 991px*******************/
 @media screen and ( min-width : 991px) {
       .caption p {
-        font-size: .8em;
+       font-size: .8em;
     }
        
 }
@@ -1146,6 +1182,10 @@ cite img {
         
     }
     
+      .caption p{
+         margin-top: 80px;
+    }
+    
     
 }
     
@@ -1171,6 +1211,12 @@ cite img {
     
     
 } 
+
+@media screen and ( max-width: 440px) {
+      .caption p{
+         margin-top: 50px;
+    }
+}
 
 @media screen and ( min-width: 666px ) and ( max-width: 668px ) {
     #jumboContent {
