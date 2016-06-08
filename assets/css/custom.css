@@ -1086,7 +1086,16 @@ cite img {
         min-height: 0;
     }
     
-   
+   #grid-events {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+#grid-heading-events {
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
     
     
 }
