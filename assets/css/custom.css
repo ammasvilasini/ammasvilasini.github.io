@@ -1064,7 +1064,13 @@ cite img {
     }
     
     #eventsFeature {
-        height: 300px;
+        height: 250px;
+    }
+    
+    #eventsFeature h1 {
+        font-size: 1.4em;
+        letter-spacing: 0.35px;
+        line-height: 25px;
     }
     
 
