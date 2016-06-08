@@ -1112,6 +1112,19 @@ cite img {
         padding-right: 20px;
     }
     
+    #rightP {
+        padding-top: 20px;
+        font-size: 1em;
+        padding-right: 30px;
+
+    }
+
+    #leftP {
+        border-right: transparent;
+        font-size: 1em;
+        
+    }
+    
     
 }
     
