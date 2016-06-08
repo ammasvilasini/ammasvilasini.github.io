@@ -1067,6 +1067,12 @@ cite img {
         height: 250px;
     }
     
+/*
+    #eventsFeature h1 {
+        font-size: 1.2em;
+    }
+*/
+    
     #directionsFeature {
         height: 250px;
     }
@@ -1091,11 +1097,11 @@ cite img {
         padding-right: 20px;
     }
 
-#grid-heading-events {
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    #grid-heading-events {
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     
     
 }
