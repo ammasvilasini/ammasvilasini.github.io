@@ -16,10 +16,12 @@ body {
 	 text-rendering: optimizelegibility;
     font-weight: 300;
 }
+/*
 
 * {
     border: 1px solid red;
 }
+*/
 
 h1 {
     font-size: 3em;
@@ -114,7 +116,7 @@ h5 {
 .fullContent2 {
     background-color: #F4F4EF;
     color: rgba(0,0,0,0.8);
-    padding-left: 50px;
+/*    padding-left: 50px;*/
     padding-bottom: 50px;
 }
 
