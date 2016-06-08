@@ -37,6 +37,7 @@ h2 {
 #rightP {
     padding-top: 20px;
     font-size: 1.1em;
+/*    padding-bottom: 20px;*/
    
 }
 
@@ -98,17 +99,12 @@ h5 {
     padding-left: 0;
 }
 
-#left {
-/*    background-color:#FF7F00;*/
-
-    min-height: 350px;
-    
-}
 
 .fullContent {
     background-color: #F4F4EF;
     min-height: 400px;
     color: rgba(0,0,0,0.8);
+    padding-bottom: 40px;
 }
 /*left aligned on events page*/
 .fullContent2 {
@@ -713,6 +709,17 @@ cite img {
    
 }
 
+
+#storage-signup-heading {
+    font-size: 2.7em;
+    color: rgba(255,255,255,0.9);
+    margin-top: 125px;
+    text-align: center; 
+    padding-left: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.7);  
+}
+
 .launch-static {
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/launch_bg.JPG');
     color: #fff;
@@ -1034,6 +1041,18 @@ cite img {
         font-size: 2em;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    
+    #storage-signup-heading {
+        font-size: 2em;
+        padding-left: 20px;
+        padding-right: 20px;
+            
+    }
+    
+    #leftP {
+        border-right: transparent;
+
     }
     
 }
