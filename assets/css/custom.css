@@ -1067,11 +1067,7 @@ cite img {
         height: 250px;
     }
     
-/*
-    #eventsFeature h1 {
-        font-size: 1.2em;
-    }
-*/
+
     
     #directionsFeature {
         height: 250px;
@@ -1079,9 +1075,11 @@ cite img {
     
      .feature-image h1 {
         padding-top: 20px;
+        padding-left: 20px;
         font-size: 1.6em;
         letter-spacing: 0.35px;
         line-height: 30px;
+         
     }
     
     .infoThumbs-directions {
