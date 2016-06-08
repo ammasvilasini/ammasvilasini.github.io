@@ -111,6 +111,7 @@ h5 {
     background-color: #F4F4EF;
     color: rgba(0,0,0,0.8);
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .fullContent2 h2 {
@@ -1070,10 +1071,13 @@ cite img {
     #eventsFeature h1 {
         font-size: 1.4em;
         letter-spacing: 0.35px;
-        line-height: 25px;
+        line-height: 28px;
         padding-right: 10px;
     }
     
+    #campingFeature {
+        height: 250px;
+    }
 
     
     #directionsFeature {
