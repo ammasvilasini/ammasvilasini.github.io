@@ -976,6 +976,15 @@ cite img {
         margin-top: 40px;
     
     }
+    
+    .gettingThere {
+        min-height: 0;
+        
+    }
+    
+    .gettingThere h2 {
+        padding-top: 10px;
+    }
 }
 
 
@@ -1059,12 +1068,23 @@ cite img {
         height: 250px;
     }
     
+    #directionsFeature {
+        height: 250px;
+    }
+    
      .feature-image h1 {
         padding-top: 20px;
         font-size: 1.6em;
         letter-spacing: 0.35px;
         line-height: 30px;
     }
+    
+    .infoThumbs-directions {
+        min-height: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   
     
     
 }
