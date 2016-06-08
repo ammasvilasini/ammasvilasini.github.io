@@ -1082,6 +1082,10 @@ cite img {
         padding-bottom: 20px;
     }
     
+    .thumb {
+        min-height: 0;
+    }
+    
    
     
     
@@ -1106,9 +1110,7 @@ cite img {
         padding-bottom: 20px;
     }
     
-    .thumb {
-        min-height: 0;
-    }
+    
     
 } 
 
