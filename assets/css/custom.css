@@ -1218,6 +1218,12 @@ cite img {
     }
 }
 
+@media screen and ( max-width: 320px) {
+      .caption p{
+         margin-top: 20px;
+    }
+}
+
 @media screen and ( min-width: 666px ) and ( max-width: 668px ) {
     #jumboContent {
         padding-top: 50px;
