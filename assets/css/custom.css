@@ -258,6 +258,13 @@ h5 {
     border-bottom: 2px solid #01B2F6;
 }
 
+/*To make menu item active when on page*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color:#fff;
+    border-bottom: 2px solid #01B2F6;
+    background-color: transparent;
+}
+
 /*************** JUMBOTRON *****************/
 .jumbotron h1 {
 /*    padding-top: 100px;*/
