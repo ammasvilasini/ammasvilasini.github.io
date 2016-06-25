@@ -426,8 +426,10 @@ a {
     }
     #heroText {
         margin-top: 100px;
-        font-size: 1.3em;
-        line-height: 40px;
+        font-size: 1.5em;
+        line-height: 24px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
     
     
