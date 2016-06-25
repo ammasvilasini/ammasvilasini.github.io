@@ -530,26 +530,6 @@ a {
         margin: 20px 5px 30px 0px;
     }
 
-    .badge.social.facebook:hover{
-        background: #70A91D;
-    }
-
-    .badge.social.twitter:hover{
-        background: #70A91D;
-    }
-
-    .bottomFooter {
-        background-color: #273E40;
-        color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-    }
-
-
-    
-    
-   
 }
 
 @media screen and ( max-width : 480px ) {
