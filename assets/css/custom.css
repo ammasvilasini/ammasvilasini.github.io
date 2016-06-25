@@ -490,6 +490,13 @@ a {
     .program-container {
         padding-left: 30%;
     }
+    
+    #footerText {
+        margin-top: 80px;
+        font-size: 1.5em;
+        line-height: 30px;
+
+    }
    
 }
 
