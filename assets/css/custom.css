@@ -411,10 +411,12 @@ a {
 
 }
 
+
 .footerColumn {
     padding: 0;
     margin: 0;
 }
+
 
 
 
@@ -477,9 +479,13 @@ a {
         font-size: .7em;
        
     }
+    
+    .heading {
+        margin-top: 20px;
+    }
 }
 
-/*when the screen is smaller than 768px*/
+/*when the screen is smaller than 768px**********/
 @media screen and ( max-width : 768px ) {
     .navbar-right>li:hover {
         background-color: #84C327;
@@ -511,6 +517,35 @@ a {
         font-size: .7em;
     }
     
+    #footerBrand {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #contact-text {
+        padding-top: 10px;
+    }
+
+    .badge.social {
+        margin: 20px 5px 30px 0px;
+    }
+
+    .badge.social.facebook:hover{
+        background: #70A91D;
+    }
+
+    .badge.social.twitter:hover{
+        background: #70A91D;
+    }
+
+    .bottomFooter {
+        background-color: #273E40;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
 
     
     
