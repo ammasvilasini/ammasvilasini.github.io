@@ -424,6 +424,12 @@ a {
     .navbar-right>li:hover {
         background-color: #84C327;
     }
+    #heroText {
+        margin-top: 100px;
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+    
     
 }
 
