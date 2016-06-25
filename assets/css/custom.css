@@ -120,6 +120,7 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     border-color: transparent;
+    padding: 12px 2px;
 }
 
 .btn-info {
@@ -471,6 +472,11 @@ a {
     .btn-info {
         font-size: 1em;
     }
+    
+    .btn-success {
+        font-size: .7em;
+       
+    }
 }
 
 /*when the screen is smaller than 768px*/
@@ -505,9 +511,7 @@ a {
         font-size: .7em;
     }
     
-    .btn-success {
-        font-size: .7em;
-    }
+
     
     
    
