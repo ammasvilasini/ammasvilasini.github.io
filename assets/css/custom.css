@@ -467,6 +467,10 @@ a {
     .program-container {
         padding-left: 10%;
     }
+    
+    .btn-info {
+        font-size: 1em;
+    }
 }
 
 /*when the screen is smaller than 768px*/
@@ -497,6 +501,11 @@ a {
         line-height: 30px;
 
     }
+    .seeMoreButton {
+        font-size: .7em;
+    }
+    
+    
    
 }
 
