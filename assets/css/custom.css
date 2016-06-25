@@ -460,6 +460,13 @@ a {
         background-color: #84C327;
         
     }
+    
+    .row {
+        padding: 0 2%;
+    }
+    .program-container {
+        padding-left: 10%;
+    }
 }
 
 /*when the screen is smaller than 768px*/
@@ -479,9 +486,16 @@ a {
         padding-right: 15px;
         padding-left: 30px;
     }
+    
+    .program-container {
+        padding-left: 30%;
+    }
    
 }
 
+@media screen and ( max-width : 480px ) {
+    .program-container {
+        padding-left: 10%;
+    }
 
-
-
+}
