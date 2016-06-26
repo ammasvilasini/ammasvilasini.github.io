@@ -220,13 +220,7 @@ a {
 }
 
 /*HERO HOMEPAGE  *******/
-.hero {
-	background: url('../img/hero-image.png');
-	background-color: #A0ACB5;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	min-height: 350px;
+.hero-slider {
 	color: white;
 	text-align: right;
 	-webkit-font-smoothing: antialiased;
